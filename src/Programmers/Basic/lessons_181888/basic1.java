@@ -1,4 +1,5 @@
-package Programmers;
+package Programmers.Basic.lessons_181888;
+
 import java.util.Arrays;
 
 /**
@@ -13,7 +14,7 @@ public class basic1 {
 
   public static void main(String[] args) {
 
-    int[] arr = {4, 2, 6, 1, 7, 6, 9, 10, 11};
+    int[] arr = {4, 2, 6, 1, 7, 6};
     int n = 4;
     int[] answer = solution(arr, n);
     System.out.println(Arrays.toString(answer));

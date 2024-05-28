@@ -1,4 +1,5 @@
-package Programmers;
+package Programmers.Basic.lessons_181889;
+
 import java.util.Arrays;
 
 /**
@@ -23,6 +24,7 @@ public class basic2 {
     for (int i = 0; i < answer.length; i++) {
       answer[i] = num_list[i];
     }
+//    System.arraycopy(num_list, 0, answer, 0, answer.length);
     return answer;
 
   }
