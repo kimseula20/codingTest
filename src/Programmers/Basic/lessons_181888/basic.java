@@ -10,7 +10,7 @@ import java.util.Arrays;
  * [4, 2, 6, 1, 7, 6]	  2	      [4, 6, 7]
  * [4, 2, 6, 1, 7, 6]	  4	      [4, 7]
  */
-public class basic1 {
+public class basic {
 
   public static void main(String[] args) {
 

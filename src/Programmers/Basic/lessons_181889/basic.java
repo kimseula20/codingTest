@@ -10,7 +10,7 @@ import java.util.Arrays;
  * [2, 1, 6]	         1	      [2]
  * [5, 2, 1, 7, 5]     3	      [5, 2, 1]
  */
-public class basic2 {
+public class basic {
 
   public static void main(String[] args) {
     int[] arr = {2, 1, 6};
