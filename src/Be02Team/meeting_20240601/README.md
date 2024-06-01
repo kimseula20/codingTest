@@ -29,7 +29,7 @@
 
 4. 프로그래머스 문제
 
-   1. 점두사인지 확인하기
+   1. 접두사인지 확인하기
    
       https://school.programmers.co.kr/learn/courses/30/lessons/181906
    2. 접미사인지 확인하기
