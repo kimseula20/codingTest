@@ -28,7 +28,7 @@
 |----------|-----------|--------|
 | "banana" | "ban"     | 1      |
 | "banana" | "nan"     | 0      |
-| "banana" | "abcd"    | 1      |
+| "banana" | "abcd"    | 0      |
 | "banana" | "bananan" | 0      |
 
 ---
@@ -41,15 +41,15 @@
 
 #### 입출력 예 #2
 
-+ 예제 1번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
++ 예제 2번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
 
 #### 입출력 예 #3
 
-+ 예제 1번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
++ 예제 3번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
 
 #### 입출력 예 #4
 
-+ 예제 1번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
++ 예제 4번에서 `is_prefix가` `my_string`의 접두사가 아니기 때문에 0을 return 합니다.
 
 ---
 
