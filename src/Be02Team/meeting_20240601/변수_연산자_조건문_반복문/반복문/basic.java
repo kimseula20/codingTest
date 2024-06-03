@@ -1,4 +1,4 @@
-package Be02Team.변수_연산자_조건문_반복문.반복문;
+package Be02Team.meeting_20240601.변수_연산자_조건문_반복문.반복문;
 
 public class basic {
 
