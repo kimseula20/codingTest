@@ -1,6 +1,6 @@
-## 분수의 덧셈
+## 나머지 구하기
 
-[분수의 덧셈 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120808)
+[나머지 구하기 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120810)
 
 ### 문제설명
 
