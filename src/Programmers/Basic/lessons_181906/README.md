@@ -24,7 +24,7 @@
 
 ### 입출력 예
 
-| num_list | result    | result |
+| num_list | is_prefix | result |
 |----------|-----------|--------|
 | "banana" | "ban"     | 1      |
 | "banana" | "nan"     | 0      |
