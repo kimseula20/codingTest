@@ -1,6 +1,6 @@
 ## 옹알이(1)
 
-[옹알이(1) 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120812)
+[옹알이(1) 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
 
 ### 문제설명
 
