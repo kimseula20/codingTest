@@ -20,7 +20,7 @@ public class Introduction {
       min = r;
     }
 
-    //최소 공배수 = 두수의 곱 / 최대공약수
+    // 최소 공배수를 구한 뒤 피자 조각으로 나눔
     return (n * 6 / max)/6;
   }
 }
