@@ -10,18 +10,18 @@ public class Introduction {
   }
 
   public static int solution(int n) {
-    int max = Math.max(n, 6); // a
-    int min = Math.min(n, 6); // b
+    int answer = 0;
 
-    // 최대 공약수
-    while (min != 0) {  // c
-      int r = max % min;
-      max = min;
-      min = r;
+    int pieces = 6;
+
+    for ( int i = 1; i <= pieces * n; i++ ) { // 최소 1판부터니 1로 초기화
+      if ( (pieces * i) % n == 0 ) {
+        answer = i;
+        break;
+      }
     }
 
-    // 최소 공배수를 구한 뒤 피자 조각으로 나눔
-    return (n * 6 / max)/6;
+    return answer;
   }
 }
 
