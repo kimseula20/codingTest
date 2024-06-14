@@ -1,6 +1,6 @@
 ## 피자 나눠 먹기(1)
 
-[피자 나눠 먹지(1) 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120814)
+[피자 나눠 먹기(1) 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120814)
 
 ### 문제설명
 
