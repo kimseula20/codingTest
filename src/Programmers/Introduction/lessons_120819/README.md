@@ -1,4 +1,4 @@
-## 아이스 아메리카노 받기
+## 아이스 아메리카노
 
 [아이스 아메리카노 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120819)
 
