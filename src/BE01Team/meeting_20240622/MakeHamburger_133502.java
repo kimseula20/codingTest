@@ -5,24 +5,24 @@ import java.util.Arrays;
 public class MakeHamburger_133502 {
 
   public static void main(String[] args) {
-    int[] ingredient = {1, 3, 2, 1, 2, 1, 3, 1, 2};
+    int[] ingredient = {1, 2, 3, 1, 1, 2, 3, 1};
     int answer = solution(ingredient);
     System.out.println(answer);
   }
 
-  public static int solution(int[] ingredients)
-  {
+  public static int solution(int[] ingredient) {
     int answer = 0;
-    String hamburger = "1231";
-    String standard = Arrays.toString(ingredients).replace(",", "").replace(" ", "").replace("[", "").replace("]", "");
 
-    if(standard.contains(hamburger)) {
-      while (standard.contains(hamburger)) {
-        standard = standard.replace(hamburger, "");
+    StringBuilder sb = new StringBuilder();
+
+    for (int i = 0; i < ingredient.length; i++) {
+      sb.append(ingredient[i]);
+      if (sb.length() > 3 && sb.charAt(sb.length() - 1) == '1' && sb.charAt(sb.length() - 2) == '3'
+          && sb.charAt(sb.length() - 3) == '2' && sb.charAt(sb.length() - 4) == '1') {
         answer++;
+        sb = new StringBuilder(sb.substring(0, sb.length() - 4));
       }
     }
-
     return answer;
   }
 
