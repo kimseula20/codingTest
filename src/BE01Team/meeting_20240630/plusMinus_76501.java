@@ -1,4 +1,4 @@
-package BE01Team.meeting_20240629;
+package BE01Team.meeting_20240630;
 
 public class plusMinus_76501 {
 
